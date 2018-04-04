@@ -1,0 +1,42 @@
+
+Alter table PPASurvey_DBProd.dbo.[Source.InputDataSave]
+add 
+	  Q89_1 [DECIMAL] NULL default 0,
+	  Q89_2 [DECIMAL] NULL default 0,
+	  Q89_3 [DECIMAL] NULL default 0,
+	  x_483 [DECIMAL] NULL default 0,
+	  Q90_1 [DECIMAL] NULL default 0,
+	  Q90_2 [DECIMAL] NULL default 0,
+	  x_484 [DECIMAL] NULL default 0,
+	  Q91 [DECIMAL] NULL default 0,
+	  Q92_1 [DECIMAL] NULL default 0,
+	  Q92_2 [DECIMAL] NULL default 0,
+	  Q92_3 [DECIMAL] NULL default 0,
+	  Q92_4 [DECIMAL] NULL default 0,
+	  Q92_5 [DECIMAL] NULL default 0,
+	  Q92_6 [DECIMAL] NULL default 0,
+	  Q92_7 [DECIMAL] NULL default 0,
+	  Q93_1 [DECIMAL] NULL default 0,
+	  Q93_2 [DECIMAL] NULL default 0,
+	  Q94 [DECIMAL] NULL default 0,
+	  Q95_1 [DECIMAL] NULL default 0,
+	  Q95_2 [DECIMAL] NULL default 0,
+	  Q95_3 [DECIMAL] NULL default 0,
+	  Q95_4 [DECIMAL] NULL default 0,
+	  Q95_5 [DECIMAL] NULL default 0,
+	  Q95_6 [DECIMAL] NULL default 0,
+	  Q95_7 [DECIMAL] NULL default 0,
+	  Q95_8 [DECIMAL] NULL default 0,
+	  Q96_1 [BIT] NULL default 0,
+	  Q96_2 [BIT] NULL default 0,
+	  Q96_3 [BIT] NULL default 0,
+	  Q96_4 [BIT] NULL default 0,
+	  Q96_5 [BIT] NULL default 0,
+	  Q96_6 [BIT] NULL default 0,
+	  Q96_7 [BIT] NULL default 0,
+	  Q96_8 [BIT] NULL default 0,
+	  Q96_9 [BIT] NULL default 0,
+	  Q97 [BIT] NULL default 0;
+	  	  
+
+GO
