@@ -14,3 +14,9 @@ q66l is NULL
 update  PPASurvey_DBProd.dbo.[Source.InputDataBenchMarkSource] set Q66v=NULL 
 
 update  PPASurvey_DBProd.dbo.[Source.InputData] set Q66v=NULL
+
+
+delete from [PPASurvey_DBProd].[dbo].[Target.OutputData]
+delete from [PPASurvey_DBProd].dbo.[Source.InputData]  where q74 like '%Test%'
+delete from [PPASurvey_DBProd].dbo.[Source.InputDataBenchMarkSource]  where q74 like '%Test%'
+delete from [PPASurvey_DBProd].[dbo].[SurveyTransaction]  where UserName like '%Test%'
